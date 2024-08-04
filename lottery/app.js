@@ -16,9 +16,9 @@ btn.addEventListener('click', function(){
     }
 
     no1.innerHTML = list[0];
-    no1.innerHTML = list[1];
-    no2.innerHTML = list[2];
-    no3.innerHTML = list[3];
-    no4.innerHTML = list[4];
-    no5.innerHTML = list[5];
+    no2.innerHTML = list[1];
+    no3.innerHTML = list[2];
+    no4.innerHTML = list[3];
+    no5.innerHTML = list[4];
+    no6.innerHTML = list[5];
 })
