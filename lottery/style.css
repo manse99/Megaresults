@@ -83,7 +83,7 @@
   header h1{
     color: #d99e6a;
     font-size: 2.5rem;
-    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 4px 8px rgba(241, 79, 79, 0.4);
   }
 
   h2{
@@ -109,6 +109,7 @@ main{
 }
  .lotto-num .numbers{
     display: flex;
+    justify-content: center;
 
  }
 
@@ -120,6 +121,26 @@ main{
     width: 60px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
  }
+
+ .plus-bonus{
+  align-items: center;
+  margin-left: 15px;
+ }
+
+ .btn{
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0,0.6);
+  background-color: #d99e6a;
+  border: none;
+
+ }
+
+ .btn:active{
+  background-color: #0d0d0d;
+ }
+
 
  
   
